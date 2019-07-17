@@ -1,0 +1,14 @@
+{{count}}
+<br />
+<a href="{% url 'home' %}">start again</a>
+<br />
+{{number_of_word}}
+<br />
+{{fulltext}}
+<br />
+{% for word , count in word_dic %}
+{{word}}
+ : 
+{{count}}
+<br />
+{% endfor %}

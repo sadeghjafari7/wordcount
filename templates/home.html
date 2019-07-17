@@ -1,0 +1,13 @@
+hello world
+<br />
+<a href="{% url 'about' %}">about</a>
+<br />
+<a href="{% url 'adding' %}">adding page</a>
+<br />
+{{text1}}
+<br />
+<form action="{% url 'count' %}">
+    <textarea cols="40" rows="10" name='count text' ></textarea>
+    <br />
+    <input type="submit" value="count!">
+</form>
